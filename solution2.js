@@ -77,14 +77,3 @@ function newArr(arr){
 	}
 	return res;
 }
-
-
-var  x = [100, "12343456789", [1, 2, 3,5, 4, 4,5], function(a) { return a; }, { "name": "Martin" }, 3, 4, 5, function(a) { return (a + 1)}]
-var  y = [ "", [], function(a) { return a*4; }, { "": "Martin" }, function(a) { return (a + 1)}]
-var z = [ ["4", 2, 3, 4]]
-var w = [1,2, [9,[8]], {"keys":"values"}, "string","function", function(arg){return arg*2}, 42,42,18, "complicated"]
-console.log(newArr(w))
-array = [8,[9]]
-console.log(Array.isArray([8,[9]]))
-console.log(checkEqual([8,9], [8,[9]]))
-
